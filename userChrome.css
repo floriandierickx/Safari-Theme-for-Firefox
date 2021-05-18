@@ -460,3 +460,11 @@ border-width: 3px !important;
 {
 	border-color: var(--lwt-toolbar-field-background-color) !important;
 }
+
+.urlbarView-body-inner {
+  background-color: rgb(72, 72, 72) !important;
+}
+
+.urlbarView-row {
+  color: white !important;
+}
