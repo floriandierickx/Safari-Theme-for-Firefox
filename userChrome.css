@@ -491,6 +491,11 @@ border-width: 3px !important;
 }
 .tabbrowser-tab[pinned] .tab-content {
   padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.tabbrowser-tab[pinned] .tab-content .tab-icon-image {
+  margin-left: 2px !important;
+  margin-right: 2px !important;
 }
 #tabs-newtab-button {
   padding-left: 0 !important;
