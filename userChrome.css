@@ -527,6 +527,13 @@ border-width: 3px !important;
 #identity-box {
   margin-right: 0 !important;
 }
+#identity-box[pageproxystate="valid"].extensionPage > .identity-box-button {
+  background-color: transparent !important;
+  padding-inline: 5px !important;
+}
+#identity-box[pageproxystate="valid"].extensionPage #identity-icon-label {
+  display: none !important;
+}
 #identity-icon {
   width: 11px !important;
   height: 11px !important;
@@ -576,6 +583,18 @@ border-width: 3px !important;
 }
 .tab-close-button,
 .tab-icon-overlay,
-.tab-icon-sound-label.tab-icon-sound-tooltip-label {
+.tab-icon-sound-label.tab-icon-sound-tooltip-label,
+#pageAction-urlbar-_0d49b33c-467a-4897-bea4-c82d6756e5c4_ {
   display: none;
+}
+#tabs-newtab-button {
+  width: 25px !important;
+}
+#tabs-newtab-button .toolbarbutton-icon {
+  width: 17px !important;
+  height: 17px !important;
+  opacity: 0.4 !important;
+}
+.tab-icon-image {
+  visibility: hidden !important;
 }
